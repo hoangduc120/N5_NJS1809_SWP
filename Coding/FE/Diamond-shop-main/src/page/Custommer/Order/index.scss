@@ -1,0 +1,202 @@
+.tabs-container {
+  padding-top: 30px;
+  .ant-tabs-nav {
+    margin-bottom: 16px;
+  }
+  .ant-tabs-tab {
+    background: #888282 !important;
+    transition: background 0.3s;
+    border-radius: 1px !important; // Reduce the border-radius
+    margin: 0 !important; // Remove the margin
+    &.ant-tabs-tab-active {
+      color: #f0f0f0 Im !important;
+      background: black !important;
+      .ant-tabs-tab-btn {
+        color: white !important;
+      }
+    }
+
+    .ant-tabs-tab-btn {
+      color: white;
+      font-weight: 700;
+      transition: color 0.3s;
+    }
+  }
+  // ------------------------------------
+  .staff_order_frame {
+    position: relative;
+    margin: 10px 0px;
+    padding: 15px;
+    border: 1px solid rgb(128, 128, 128, 0.1);
+    box-shadow: 1px 1px 1px 1px rgb(128, 128, 128, 0.1);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    .staff_order_left {
+      text-align: center;
+      position: relative;
+      .new_order_odID {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        font-weight: bold;
+        background-color: white;
+        padding: 2px;
+        z-index: 3;
+        border: 2px solid black;
+      }
+      .staff_order_kimg_kid {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+      }
+      .staff_order_kimg_main {
+        width: 130px;
+        margin-left: 10px;
+      }
+      .button_custom {
+        width: 100px;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid gray;
+        transform: 0.5s;
+        &:hover {
+          color: black;
+          border-bottom: 1px solid black;
+        }
+      }
+    }
+    .price {
+      text-align: right;
+      font-size: 20px;
+      font-weight: bold;
+      color: #e4bd7b;
+    }
+    .staff_order_right {
+      .icon_order {
+        padding-right: 10px;
+      }
+      .info_product {
+        display: flex;
+        padding-bottom: 20px;
+        color: #15393f;
+        .info_sub {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          font-size: large;
+          font-weight: bold;
+        }
+      }
+      .info_diamond {
+        display: flex;
+        color: #15393f;
+        .info_sub {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          font-size: large;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .text-left {
+    display: flex;
+    padding: 10px 20px 0px 20px;
+    flex-direction: column;
+    gap: 70px;
+    font-size: 15px;
+    color: #15393f;
+    font-weight: bold;
+    a {
+      color: #888282;
+
+      transition: 0.3s ease;
+      &:hover {
+        color: #a68909 !important; // Màu vàng khi hover
+        cursor: pointer; // Thêm hiệu ứng con trỏ chuột khi hover
+      }
+    }
+  }
+  .text-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+    h2 {
+      text-align: right;
+      padding-right: 30px;
+      color: #605c5c;
+      font-weight: bold;
+    }
+    h3 {
+      text-align: right;
+      padding-right: 30px;
+      color: #e4bd7b;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    button {
+      height: 50px;
+      font-size: 20px;
+      border-radius: 8px;
+      color: white;
+      border: none;
+      font-weight: bold;
+    }
+    .status-button {
+      background-color: #605c5c;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &.default {
+        background-color: #605c5c;
+      }
+
+      &.green {
+        background-color: #008000;
+
+        &:hover {
+          background-color: #28a745;
+        }
+      }
+
+      &.red {
+        background-color: red;
+
+        &:hover {
+          background-color: #dc3545;
+        }
+      }
+      &.blue {
+        background-color: rgb(29, 122, 148);
+
+        &:hover {
+          background-color: #1d7a94;
+        }
+      }
+      &.orange {
+        background-color: #ffa500;
+
+        &:hover {
+          background-color: orange
+        }
+      }
+
+      &.yellow {
+        background-color: #e3bf1f;
+
+        &:hover {
+          background-color: rgb(166, 137, 9, 0.8);
+        }
+      }
+    }
+  }
+}
