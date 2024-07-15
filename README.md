@@ -1,5 +1,5 @@
 
-![Diamond](https://github.com/hoangduc120/N5_NSJ1809_SWP/assets/155705690/465c6d90-12d0-47a2-a2a3-59b13a82c881)
+![Diamond](https://firebasestorage.googleapis.com/v0/b/diamond-6401b.appspot.com/o/Logo.png?alt=media&token=13f983ed-b3e1-4bbe-83b2-a47edf62c6a6)
 
 # DiamondKing - Web bán kim cương
 
