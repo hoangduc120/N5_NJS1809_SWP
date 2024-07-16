@@ -60,7 +60,8 @@ Mã nguồn trong repository này được cấp phép theo Giấy phép MIT. Xe
 
 
 
-![Homepage](./screenshots/homepage.png)
+![Homepage]![Uploading image.png…]()
+
 ![Chi tiết Sản phẩm](./screenshots/product-details.png)
 
 ## Tác giả
