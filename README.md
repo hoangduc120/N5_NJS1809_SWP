@@ -60,7 +60,7 @@ Mã nguồn trong repository này được cấp phép theo Giấy phép MIT. Xe
 
 
 
-![Homepage]![Uploading image.png…]()
+![Homepage]!(https://firebasestorage.googleapis.com/v0/b/diamond-6401b.appspot.com/o/z5639919955561_ef4eedd0de04ab4a705021107c9d1ff0.jpg?alt=media&token=dccc06e8-4182-4b37-83b2-e65b2c5acad4)
 
 ![Chi tiết Sản phẩm](./screenshots/product-details.png)
 
