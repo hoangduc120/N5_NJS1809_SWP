@@ -105,9 +105,9 @@ console.log(readmeContent);
 
 | Member         | User Story (US) Assighed                                                |
 |----------------|-------------------------------------------------------------|
-| Hoàng Việt Đức       |  UC4, UC5, UC6  |
-| Hồ Công Duy       |  UC4, UC5, UC6  |
-| Phạm Trung Nguyên       |  UC4, UC5, UC6   |
+| Hoàng Việt Đức          |  UC4 : user payment product  |
+| Hồ Công Duy             |  UC5 : admin management product   |
+| Phạm Trung Nguyên       |  UC6 : receiving and delivery staff   |
 
 
 
